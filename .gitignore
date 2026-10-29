@@ -1,137 +1,68 @@
 
 # Binaries
-
 *.exe
-
 *.exe~
-
 *.dll
-
 *.so
-
 *.dylib
-
 /bin/
-
 /dist/
-
 /tmp/
-
 Go-HTMX
 
-
-
 # Test and coverage output
-
 *.test
-
 *.out
-
 coverage.*
-
 *.coverprofile
-
 profile.cov
 
-
-
 # Go workspace and vendor
-
 go.work
-
 go.work.sum
 
-# vendor/
-
-
-
 # Secrets and env files (never commit these)
-
 .env
-
 .env.*
-
 !.env.example
-
 *.pem
-
 *.key
-
 *.p12
-
 secrets/
-
 config.local.*
 
-
-
 # Databases and local data
-
 *.db
-
 *.sqlite
-
 *.sqlite3
-
 data/
 
-
-
 # Logs
-
 *.log
-
 logs/
 
-
-
 # Hot reload (air)
-
 tmp/
-
 .air.toml.bak
 
-
-
 # Node / frontend tooling (Tailwind, htmx builds, etc.)
-
 node_modules/
-
 npm-debug.log*
-
 .npm/
 
-
-
 # Generated files (uncomment if you use templ)
-
-# *_templ.go
-
-# *_templ.txt
-
-
+*_templ.go
+*_templ.txt
 
 # Editors and IDEs
-
 .zed/
-
 .vscode/
-
 .idea/
-
 *.swp
-
 *.swo
-
 *~
 
-
-
 # OS junk
-
 .DS_Store
-
 Thumbs.db
-
 desktop.ini
-
